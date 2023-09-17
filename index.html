@@ -11,71 +11,63 @@
     <link rel="stylesheet" href="CSS/common.css"/>
     <link rel="stylesheet" href="CSS/pages/index.css"/>
 </head>
-
 <body>
-    <!--Barra de logo portal-->
     <header>
-        <div class="header-page">
-            <a href="index.html"><img src="CSS/img/Logo_DINE_negativo.png" alt="logo" class="logo" width="200px"></a>
-        </div>
+            <div class="header-page">
+                <a href="index.html"><img src="CSS/img/Logo_DINE_negativo.png" alt="logo" class="logo" width="200px"></a>
+            </div>
 
-        <!--Barra de menú principal-->
-        <ul id="lista-menu">
-            <li><a class="active" href="informes.html" id="informes">Informes</a></li>
-            <li><a href="#contact" id="contacto">Contacto</a></li>
-        </ul>
+        <nav id="lista-menu">
+            <div id="contenido-black-header">
+                <ul>
+                    <li><a class="active" href="informes.html" id="informes">Informes</a></li>
+                    <br>
+                    <li><a href="#contact" id="contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
-
-    <!-- Contenido principal de la página -->
     <main>
         <section id="sec-titulo">
-            <!--Seccion para agregar una palicula favorita por codigo-->
             <h1>Resultados electorales</h1>
-            
-            <p>La Dirección Nacional Electoral y el Observatorio Político Electoral del Ministerio del
-                Interior ponen a disposición una herramienta de búsqueda avanzada y generación de informes
-                personalizados con los resultados provisionales de las elecciones desarrolladas en los
-                últimos años.
-                <br>Los resultados que se presentan son los correspondientes a escrutinios provisorios de
-                elecciones nacionales. Dicho recuento es responsabilidad de la DINE. También se presentan
-                los resultados provisionales de las elecciones provinciales y/o locales realizadas bajo la
-                adhesión a ley de simultaneidad.
-            </p>
-
+            <div id="sec-parrafo">
+                <p>
+                    La Dirección Nacional Electoral y el Observatorio Político Electoral del Ministerio del
+                    Interior ponen a disposición una herramienta de búsqueda avanzada y generación de informes
+                    personalizados con los resultados provisionales de las elecciones desarrolladas en los
+                    últimos años.
+                    <br>
+                    Los resultados que se presentan son los correspondientes a escrutinios provisorios de
+                    elecciones nacionales. Dicho recuento es responsabilidad de la DINE. También se presentan
+                    los resultados provisionales de las elecciones provinciales y/o locales realizadas bajo la
+                    adhesión a ley de simultaneidad.
+                </p>
+            </div>
             <img src="CSS/img/images.png">
         </section>
-        
         <section id="sec-messages">
             <!--agregar mensajes al usuario, por ejemplo, mensajes de error, o de éxito de las operaciones. no entiendo como hacerlo -->
         </section>
-
-        <!--Botones de generales y paso-->
         <section id="sec-contenido">
-
             <h2>Elecciones 2021</h2>
             <p>Resultados provisorios</p>
-            
+
             <a href="paso.html" id="paso">PASO</a>
-
             <a href="generales.html" id="generales">GENERALES</a>
-
         </section>
     </main>
-
-    <!--Pie de página-->
     <footer>
         <p>
             “Resultados Provisorios en base a telegramas recibidos (Art. 43 Ley 26571 y Art. 105 Ley 19945). Los
             porcentajes de las agrupaciones políticas son calculados sobre los votos válidos (PASO) conforme al art. 45
             Ley 26.571 y afirmativos (Generales). No se incluyen los votos correspondientes a los electores residentes
             en el exterior ni privados de la libertad. Al usar este sitio usted acepta los <a href="" id="link-pie">Términos y
-                Condiciones</a>
+            Condiciones</a>
         </p>
-
         <div id="imagenes-footer">
-            <img src="CSS/img/icons/Ministerio-del-Interior_pluma.1ab9a7a7.png" alt="" width="150px">
             <img src="CSS/img/Logo_DINE_negativo.png" alt="" width="150px">
-            <img src="CSS/img/icons/logos_001-10.4430c8d5.png" alt="" width="150px">
+            <img src="CSS/img/Ministerio-del-Interior_pluma.1ab9a7a7.png" alt="" width="150px">
+            <img src="CSS/img/logos_001-10.4430c8d5.png" alt="" width="150px">
         </div>
     </footer>
 </body>
