@@ -1,0 +1,15 @@
+.header-page{
+    background-color: #18a0fb;
+    padding: 0.5em;
+    width: 90%;
+    margin-top: 0;
+}
+
+footer{
+    background-color: #333;
+    color: #9e9e9e;;
+}
+
+#imagenes-footer{
+    width: 40px;
+}
