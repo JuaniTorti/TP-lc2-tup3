@@ -37,8 +37,9 @@ footer{
 
 #sec-contenido{
     background-color: lightcyan;
-    padding: 3em;
+    padding: 1em;
     margin-top: 0%;
+    height: 210px;
 }
 
 #lista-menu{
