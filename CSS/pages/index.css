@@ -32,6 +32,7 @@ footer{
     color: #FFF;
     font-size: 45px;
     text-align: center; 
+    margin-left: 200px;
 }
 
 #sec-contenido{
@@ -73,7 +74,8 @@ header{
 
 #sec-parrafo{
     justify-content: start;
-    width: 50%;   
+    width: 50%; 
+    margin-right: 100px;  
 }
 
 #img-main{
