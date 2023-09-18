@@ -1,11 +1,7 @@
 
-
-
-
-
-
 #generales{
     background-color:  #50c7f3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 5px;
     padding: 10px 250px;
     color: #FFF;
@@ -20,6 +16,7 @@
 
 #paso{
     background-color:  #dd5896;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 5px;
     padding: 10px 250px;
     color: #FFF;
@@ -27,6 +24,7 @@
     text-align: center; 
     margin-left: 200px;
     box-shadow: 3px 3px 1px 0px #6d6d6d;
+    width: 40%;
 }
 
 #paso:hover{
@@ -35,8 +33,9 @@
 
 #sec-contenido{
     background-color: lightcyan;
-    padding: 1em;
+    padding: 0.5em;
     margin-top: 0%;
+    margin-bottom: 8px;
     height: 210px;
 }
 
