@@ -9,20 +9,41 @@
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/pages/informes.css"/>
+    <link rel="stylesheet" href="CSS/pages/index.css">
 </head>
 
 <body>
     <header>
         <div class="header-page">
-            <a href="index.html"> <img src="CSS/img/Logo_DINE_negativo.png" width="200px" alt="logo" class="logo"> Dirección Nacional Electoral </a>
+            <a href="index.html"><img src="CSS/img/Logo_DINE_negativo.png" alt="logo" class="logo" width="200px"></a>
         </div>
-        <nav class="elecciones">
-            <a>Consultar</a>
-            <a href="paso.html" class="paso">PASO</a>
-            <a href="generales.html" class="generales">GENERALES</a>
-            <a href="index.html" class="inicio">INICIO</a>
-        </nav>
+    <nav id="lista-menu">
+        <a href="#contact" id="contacto">Contacto</a>
+        <a href="informes.html" id="informes">Informes</a>
+    </nav>
     </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -36,20 +57,21 @@
         </section>
         <section id="sec-contenido">
             <!--Seccion para contenido de la página-->
-            <table>
+            <table id="tabla">
                 <thead>
                     <tr>
-                        <td>PROVINCIA</td>
-                        <td>ELECIÓN</td>
-                        <td>DATOS GENERALES</td>
-                        <td>DATOS POR AGRUPACIÓN</td>
+                        <th>PROVINCIA</th>
+                        <th>ELECCIÓN</th>
+                        <th>DATOS GENERALES</th>
+                        <th>DATOS POR AGRUPACIÓN</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><img src="">"Imagen provincial de buenos aires"</td>
-                        <td>Elecciones 2021 / Generales</td>
-                        <td></td>
+                        <td><img src="CSS/img/ba.png" width="200"></td>
+                        <td><b>Elecciones 2021 / Generales</b></td>
+                        <td> cuadritos</td>
+
                     </tr>
                 </tbody>
             </table>
@@ -61,8 +83,36 @@
 
 
 
-    <!--Pie de página-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <footer>
-        <p></p>
+        <img src="CSS/img/Logo_DINE_negativo.png" alt="" width="190px" height="50px">
+        <img src="CSS/img/Ministerio-del-Interior_pluma.1ab9a7a7.png" alt="" width="170px">
+        <img src="CSS/img/logos_001-10.4430c8d5.png" alt="" width="170px">
+        
+        <p id="txt-pie">
+            “Resultados Provisorios en base a telegramas recibidos (Art. 43 Ley 26571 y Art. 105 Ley 19945). Los
+            porcentajes de las agrupaciones políticas son calculados sobre los votos válidos (PASO) conforme al art. 45
+            Ley 26.571 y afirmativos (Generales). No se incluyen los votos correspondientes a los electores residentes
+            en el exterior ni privados de la libertad. Al usar este sitio usted acepta los <a href="" id="link-pie">Términos y
+            Condiciones</a>
+        </p>
     </footer>
 </body>
