@@ -1,30 +1,125 @@
 .cuadro{
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
-    grid-template-rows: 100px 100px 100px;
-}
-.fila {
-
-}
-.datos-generales {
-
-}
-.dato01 {
-
-}
-.dato02 {
-}
-.dato03 {
-}
-.datos-agrupacion {
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: 50px 200px 200px;
+    border: 10px;
 }
 
-.img {
+#sec-contenido {
+    
+}
+
+
+h3 {
+    text-align: center;
+}
+
+.provincia {
     grid-column: 1/2;
+    grid-row: 1/2;
+}
+.eleccion {
+    grid-column: 2/3; 
+    grid-row: 1/2;
+}
+.datosGenerales {
+    grid-column: 3/6; 
+    grid-row: 1/2;
+}
+.datosAgrupacion {
+    grid-column: 6/7; 
+    grid-row: 1/2;
+}
+.imgBA {
+    grid-column: 1/2; 
+    grid-row: 2/3; 
+}
+.imgCBA {
+    grid-column: 1/2; 
+    grid-row: 3/4; 
+}
+img {
+    width: 220px; 
+    padding-left: 60px;
+}
+.generales01 {
+    grid-column: 2/3; 
+    grid-row: 2/3; 
+    text-align: center; 
+    padding-top: 70px;
+}
+.generales02 {
+    grid-column: 2/3; 
+    grid-row: 2/3; 
+    text-align: center; 
+    padding-top: 90px; 
+    font-size: 10px; 
+    color: rgb(0, 89, 253)
+}
+.paso01 {
+    grid-column: 2/3; 
+    grid-row: 3/4; 
+    text-align: center; 
+    padding-top: 70px;
+}
+.paso02 {
+    grid-column: 2/3; 
+    grid-row: 3/4; 
+    text-align: center; 
+    padding-top: 90px; 
+    font-size: 10px; 
+    color: rgb(0, 89, 253);
+}
+.encrustadas01 { 
+    text-align: center; 
+    margin: 15px; 
+    width: 250px; 
+    height: 70px;
+    border-radius: 10px;
+    padding: 5px; 
+    margin-left: 80px;
+    margin-top: 50px; 
+    background-color: #37bbed;
+}
+
+
+.electores02 {
+    text-align: center; 
+    margin: 15px; 
+    width: 250px; 
+    height: 70px;
+    border-radius: 10px;
+    padding: 5px; 
+    margin-left: 10px;
+    margin-top: 50px; 
+    background-color: #ee3d8f;
+}
+.participacion03 {
+    text-align: center; 
+    margin: 15px; 
+    width: 250px; 
+    height: 70px;
+    border-radius: 10px;
+    padding: 5px; 
+    margin-left: 10px;
+    margin-top: 50px; 
+    background-color: #9283be;
+}
+
+.datos-generales {
+   display: flex;
+   grid-column: 3/6; 
+   grid-row: 2/3; 
+}
+
+.datos-generales01 {
+    display: flex;
+    grid-column: 3/6; 
+    grid-row: 3/4; 
+ }
+
+.datos-agrupacion {
+    grid-column: 6/7; 
     grid-row: 2/3;
-    width: 40%;
+    display: flex;
 }
-
-.fila01 {
-}
-
