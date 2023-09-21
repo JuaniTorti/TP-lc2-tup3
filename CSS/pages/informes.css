@@ -1,4 +1,29 @@
-#tabla {
-    border-radius: 7px;
-    border-color: black;
+.cuadro {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    grid-template-rows: auto auto auto;
 }
+.fila {
+
+}
+.datos-generales {
+
+}
+.dato01 {
+
+}
+.dato02 {
+}
+.dato03 {
+}
+.datos-agrupacion {
+}
+
+.img {
+    grid-column: 1/2;
+    width: 40%;
+}
+
+.fila01 {
+}
+
