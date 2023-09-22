@@ -386,10 +386,7 @@ hr {
     border: 1px solid rgba(55, 55, 55, 0.3);
     margin: 0px;
 }
-
-
 /* CSS de resumen de votos*/
-
 .chart-wrap {
     --chart-width: 260px;
     --grid-color: #aaa;
@@ -445,6 +442,7 @@ hr {
     position: absolute;
     right: -1.5em;
     top: -1.5em;
+
 }
 
 /* giramos las valores de 0% y 100% para horizontal */
@@ -457,7 +455,7 @@ hr {
     width: var(--bar-value);
     height: var(--bar-thickness);
     margin: var(--bar-spacing) 0;
-    background-color: var(--bar-color);
+   /* background-color: var(--bar-color);*/
     border-radius: 0 var(--bar-rounded) var(--bar-rounded) 0;
 }
 
@@ -497,16 +495,13 @@ hr {
     }
     
 .grid {
-    border: 3px solid #18a0fb;
     display: grid;
 }
 
 .bar {
-    border: 3px solid green;
     display: flex;
     border-radius: 20px;
 }
-
 
 /*barra de progreso*/
 .progress {
@@ -535,7 +530,8 @@ hr {
 .chart-wrap{
     display: flex;
     min-height: 100px;
-    width: 200px;
-    border: 1px solid red;
-    margin-left:100px ;
+    width: 90%;
+    margin-left:0px;
+    margin-top: 50px;
 }
+
