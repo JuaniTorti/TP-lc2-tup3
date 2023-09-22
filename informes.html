@@ -7,35 +7,131 @@
     <title>Sistema de Publicación de Resultados Electorales</title>
     <link rel="shortcut icon" type="image/png" href="favicon-16x16.png">
     <!-- Estilos CSS -->
-    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/pages/informes.css"/>
 </head>
 
 <body>
     <header>
-        <!--Barra de logo portal-->
         <div class="header-page">
-            <a href="index.html"> <img src=" " alt="logo" class="logo"> Dirección Nacional Electoral </a>
+            <a href="index.html"><img src="CSS/img/Logo_DINE_negativo.png" alt="logo" class="logo" width="200px"></a>
         </div>
-        <!--Barra de menú principal-->
-        <ul>
-            <li><a class="active" href="#informes">Informes</a></li>
-            <li><a href="#contact">Contacto</a></li>
-        </ul>
+        <nav id="lista-menu">
+            <a href="#contact" id="contacto">Contacto</a>
+            <a href="informes.html" id="informes">Informes</a>
     </header>
     <!-- Contenido principal de la página -->
     <main>
         <section id="sec-titulo">
-            <!--Seccion para agregar una palicula favorita por codigo-->
-            <h2>Informes</h2>
-            <p>Párrafo o subtítulo</p>
-            <div>Imagen</div>
+            <br>
+            <h1>Reporte de Elecciones</h1>
         </section>
         <section id="sec-contenido">
             <!--Seccion para contenido de la página-->
+            <div class="cuadro">
+                <div class="provincia"><h3><b>PROVINCIA</b></h3></div>
+                <div class="eleccion"><h3><b>ELECCIÓN</b></h3></div>
+                <div class="datosGenerales"><h3><b>DATOS GENERALES</b></h3></div>
+                <div class="datosAgrupacion"><h3><b>DATOS POR AGRUPACIÓN</b></h3></div>
+                
+                <div class="imgBA"><img src="CSS/img/ba.png"></div>
+                <div class="imgCBA"><img src="CSS/img/cordoba.png"></div>
+                
+                <div class="generales01"><b>Elecciones 2021 | Generales</b></div>
+                <div class="generales02"><b>2021 ° Generales ° Provisorio ° Diputados Nacionales</b></div>
+                <div class="paso01"><b>Elecciones 2021 | PASO</b></div>
+                <div class="paso02"><b>2021 ° Generales ° Provisorio ° Diputados Nacionales</b></div>
+                
+                <div class="datos-generales">
+                    <div class="encrustadas01">
+                        <img class="foto" src="CSS/img/icons/img1.png" alt="logo">
+                        <h4 class="mesaEncrustrada">Mesas Encrustadas</h4>
+                        <p class="nroEncrustado">36.450</p>
+                    </div>
+                    <div class="electores02">
+                        <img class="foto" src="CSS/img/icons/img3.png" alt="logo">
+                        <h4 class="e">Electores</h4>
+                        <p class="nroElectores">45.500.000</p>
+                    </div>
+                    <div class="participacion03">
+                        <img class="foto" src="CSS/img/icons/img4.png" alt="logo">
+                        <h4 class="PsE">Participación sobre <br> Escrutado</h4>
+                        <p class="porcentaje">72.89%</p>
+                    </div>
+                </div>
+                
+                <div class="datos-generales01">
+              <div class="encrustadas01">
+                        <img class="foto" src="CSS/img/icons/img1.png" alt="logo">
+                        <h4 class="mesaEncrustrada">Mesas Encrustadas</h4>
+                        <p class="nroEncrustado">25.450</p>
+                    </div>
+                    <div class="electores02">
+                        <img class="foto" src="CSS/img/icons/img3.png" alt="logo">
+                        <h4 class="e">Electores</h4>
+                        <p class="nroElectores">30.800.600</p>
+                    </div>
+                    <div class="participacion03">
+                        <img class="foto" src="CSS/img/icons/img4.png" alt="logo">
+                        <h4 class="PsE">Participación sobre <br> Escrutado</h4>
+                        <p class="porcentaje">63.36%</p>
+                    </div>
+                </div>
+                <div class="datos-agrupacion">
+                    <div class="juntos">
+                        <p>JUNTOS</p>
+                    </div>
+                    <div class="juntos02">
+                        <p>39,81% <br>3.480.293 votos</p>
+                    </div>
+                    <div class="union">
+                        <p>UNION</p>
+                    </div>
+                    <div class="union02">
+                        <p>4,37%<br>382.445 votos</p>
+                    </div>
+                    <div class="avanza">
+                        <p>AVANZA</p>
+                    </div>
+                    <div class="avanza02">
+                        <p>7,51% <br>656.498 votos</p>
+                    </div>
+                </div>
+                <div class="datos-agrupacion01">
+                    <div class="juntos">
+                        <p>JUNTOS</p>
+                    </div>
+                    <div class="juntos02">
+                        <p>39,81% <br>3.480.293 votos</p>
+                    </div>
+                    <div class="union">
+                        <p>UNION</p>
+                    </div>
+                    <div class="union02">
+                        <p>39,81% <br>3.480.293 votos</p>
+                    </div>
+                    <div class="avanza">
+                        <p>AVANZA</p>
+                    </div>
+                    <div class="avanza02">
+                        <p>39,81% <br>3.480.293 votos</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    <!--Pie de página-->
+
     <footer>
-        <p>Desarrollado con ♥ - LC2</p>
+        <img src="CSS/img/Logo_DINE_negativo.png" alt="" width="190px" height="50px" style="margin: 0px 8px;">
+        <img src="CSS/img/Ministerio-del-Interior_pluma.1ab9a7a7.png" alt="" width="170px" style="margin: 0px 5px;">
+        <img src="CSS/img/logos_001-10.4430c8d5.png" alt="" width="170px" style="margin: 0px 5px;">
+        
+        <p id="txt-pie">
+            “Resultados Provisorios en base a telegramas recibidos (Art. 43 Ley 26571 y Art. 105 Ley 19945). Los
+            porcentajes de las agrupaciones políticas son calculados sobre los votos válidos (PASO) conforme al art. 45
+            Ley 26.571 y afirmativos (Generales). No se incluyen los votos correspondientes a los electores residentes
+            en el exterior ni privados de la libertad. Al usar este sitio usted acepta los <a href="" id="link-pie">Términos y
+            Condiciones</a>
+        </p>
     </footer>
 </body>
