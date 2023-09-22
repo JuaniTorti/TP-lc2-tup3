@@ -9,6 +9,11 @@ html{
     background-color: white;
 }
 
+body{
+    position: relative;
+    min-height: 100vh;
+}
+
 p{
     font-size: 14.5px;
     margin-top: 1px;
@@ -43,6 +48,7 @@ footer{
     position: absolute;
     bottom: 0;
     margin-left: -8px;
+    margin-bottom: -8px;
 }
 
 #link-pie{
