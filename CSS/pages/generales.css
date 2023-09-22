@@ -443,12 +443,10 @@ hr {
     }
     
 .grid {
-    border: 3px solid #18a0fb;
     display: grid;
 }
 
 .bar {
-    border: 3px solid green;
     display: flex;
     border-radius: 20px;
 }
@@ -481,7 +479,7 @@ hr {
 .chart-wrap{
     display: flex;
     min-height: 100px;
-    width: 200px;
-    border: 1px solid red;
-    margin-left:100px ;
+    width: 90%;
+    margin-left:0px;
+    margin-top: 50px;
 }
