@@ -10,7 +10,16 @@ html {
 
 }
 
+<<<<<<< HEAD
 p {
+=======
+body{
+    position: relative;
+    min-height: 100vh;
+}
+
+p{
+>>>>>>> df186cc5d3c51c702d0a2b162b80193cceb3465d
     font-size: 14.5px;
     margin-top: 1px;
 }
@@ -64,5 +73,18 @@ h3 {
     --mensaje-usuario-rojo: #dc3545;
 }
 
+<<<<<<< HEAD
+=======
+footer{
+    background-color: #333;
+    color: #9e9e9e;
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    margin-left: -8px;
+    margin-bottom: -8px;
+}
+>>>>>>> df186cc5d3c51c702d0a2b162b80193cceb3465d
 
 
