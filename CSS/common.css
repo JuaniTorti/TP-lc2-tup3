@@ -10,16 +10,7 @@ html {
 
 }
 
-<<<<<<< HEAD
 p {
-=======
-body{
-    position: relative;
-    min-height: 100vh;
-}
-
-p{
->>>>>>> df186cc5d3c51c702d0a2b162b80193cceb3465d
     font-size: 14.5px;
     margin-top: 1px;
 }
@@ -73,8 +64,6 @@ h3 {
     --mensaje-usuario-rojo: #dc3545;
 }
 
-<<<<<<< HEAD
-=======
 footer{
     background-color: #333;
     color: #9e9e9e;
@@ -85,6 +74,65 @@ footer{
     margin-left: -8px;
     margin-bottom: -8px;
 }
->>>>>>> df186cc5d3c51c702d0a2b162b80193cceb3465d
 
+body{
+    position: relative;
+    min-height: 100vh;
+}
 
+a{
+    text-decoration: none;
+}
+
+#informes{
+    background-color:  #757575;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 2px 15px;
+    color: #FFF;
+    font-size: 13px;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.432);
+}
+
+#contacto{
+    background-color:  #757575;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 2px 15px;
+    color: #FFF;
+    font-size: 13px;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.432);
+}
+
+#informes:hover{
+    color: #FFF;
+    font-size: 13px;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.432);
+}
+
+#contacto:hover{
+    background-color:  #585858;
+}
+
+.header-page{
+    background-color: #18a0fb;
+    padding: 1em;
+}
+
+#link-pie{
+    color: #18a0fb;
+}
+
+#lista-menu{
+    background-color: #4b4b4b;
+    padding: 0.5em;
+    display: flex;
+}
+
+header{
+    padding: 0px;
+    margin: -8px;
+}
