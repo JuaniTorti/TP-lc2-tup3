@@ -6,36 +6,172 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sistema de Publicación de Resultados Electorales</title>
     <link rel="shortcut icon" type="image/png" href="favicon-16x16.png">
-    <!-- Estilos CSS -->
+
     <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="CSS/pages/paso.css">
 </head>
 
 <body>
     <header>
-        <!--Barra de logo portal-->
         <div class="header-page">
-            <a href="index.html"> <img src=" " alt="logo" class="logo"> Dirección Nacional Electoral </a>
+            <a href="index.html"><img src="CSS/img/Logo_DINE_negativo.png" alt="logo" class="logo" width="200px"></a>
         </div>
-        <!--Barra de menú principal-->
-        <ul>
-            <li><a class="active" href="#informes">Informes</a></li>
-            <li><a href="#contact">Contacto</a></li>
-        </ul>
+
+        <nav id="lista-menu">
+            <a href="#contact" id="contacto">Contacto</a>
+            <a href="informes.html" id="informes">Informes</a>
+        </nav>
     </header>
-    <!-- Contenido principal de la página -->
+
+
     <main>
         <section id="sec-titulo">
-            <!--Seccion para agregar una palicula favorita por codigo-->
-            <h2>generales</h2>
-            <p>Párrafo o subtítulo</p>
-            <div>Imagen</div>
+            <div id="boton-verde">
+                <p id="texto">
+                    Se agregó con exito el resultado al informe
+                </p>
+            </div>
+
+            <div id="boton-rojo">
+                <p id="texto">
+                    ERROR: se produjo un error al intentar agregar un resultado al informe
+                </p>
+            </div>
+
+            <div id="boton-amarillo">
+                <p id="texto">
+                    La operación no se pudo completar
+                </p>
+            </div>
+
+
+            <h2>Elecciones | Paso 2023</h2>
+            <p id="parrafo-generales">2022>Generales>Senadores Nacionales > Santa Fe</p>
+            <button id="boton">+AGREGAR A INFORME</button>
+
         </section>
+
         <section id="sec-contenido">
-            <!--Seccion para contenido de la página-->
+
+            <div id="div-boton-azul">
+                <img class="foto" src="CSS/img/icons/img2.png" alt="logo">
+                <p id="txt-estructuradas">Mesas Estructuradas <br> 62.71%</p>
+            </div>
+
+            <div id="div-boton-rosa">
+                <img class="foto" src="CSS/img/icons/img3.png" alt="logo">
+                <p id="txt-electores">Electores <br> 62.71%</p>
+            </div>
+
+            <div id="div-boton-violeta">
+                <img class="foto" src="CSS/img/icons/img4.png" alt="logo">
+                <p id="txt-escrutada">Participación escrutada <br> 62.71%</p>
+            </div>
+        </section>
+
+        <section id="sec-cuadros">
+
+            <div id="cuadro-1">
+
+                <h2 class="txt-cuadros">Agrupaciones Políticas</h2>
+
+                <!---------------------AGRUPACIONES POLITICAS INICIO------------------------------->
+                <h3 class="titulos-cuadros">JUNTOS POR EL CAMBIO</h3>
+                <hr>
+                <p class="subtitulos-cuadros">JUNTOS</p>
+                <p class="info-cuadrado">38%</p>
+
+                <p class="info-cuadrado">30.000 VOTOS</p>
+                <div class="progress" style="background: var(--grafica-amarillo-claro);">
+                    <div class="progress-bar" style="width:75%; background: var(--grafica-amarillo);">
+                        <span class="progress-bar-text">75%</span>
+                    </div>
+                </div>
+
+                <p class="subtitulos-cuadros">PJ</p>
+                <p class="info-cuadrado">20%</p>
+                <p class="info-cuadrado">12.000 VOTOS</p>
+
+                <div class="progress" style="background: var(--grafica-amarillo-claro);">
+                    <div class="progress-bar" style="width:15%; background: var(--grafica-amarillo);">
+                        <span class="progress-bar-text">15%</span>
+                    </div>
+                </div>
+                <!---------------------AGRUPACIONES POLITICAS FIN------------------------------->
+                <hr>
+                <!---------------------AGRUPACIONES POLITICAS INICIO------------------------------->
+                <h3 class="titulos-cuadros">ECO + VAMOS CORRIENTES</h3>
+                <p class="subtitulos-cuadros">VERDE</p>
+                <p class="info-cuadrado">38% </p>
+                <p class="info-cuadrado">30.000 VOTOS</p>
+
+                <div class="progress" style="background: var(--grafica-verde-claro);">
+                    <div class="progress-bar" style="width:75%; background: var(--grafica-verde);">
+                        <span class="progress-bar-text">75%</span>
+                    </div>
+                </div>
+                <!---------------------AGRUPACIONES POLITICAS FIN------------------------------->
+                <hr>
+                <!---------------------AGRUPACIONES POLITICAS INICIO------------------------------->
+                <h3 class="titulos-cuadros">PARTIDO POLÍTICO X</h3>
+                <p class="subtitulos-cuadros">PARTIDO X</p>
+                <p class="info-cuadrado">50%</p>
+                <p class="info-cuadrado">25.000 VOTOS</p>
+
+                <div class="progress" style="background: var(--grafica-lila-claro);">
+                    <div class="progress-bar" style="width:50%; background: var(--grafica-lila);">
+                        <span class="progress-bar-text">50%</span>
+                    </div>
+                </div>
+                <!---------------------AGRUPACIONES POLITICAS FIN------------------------------->
+                <br>
+
+            </div>
+
+            <div id="cuadro-2">
+                <h2 class="txt-cuadros">Santa Fe</h2>
+                <img class="img-cuadros" src="CSS/img/stafe.png" alt="logo provincia">
+            </div>
+
+            <div id="cuadro-3">
+                <h2 class="txt-cuadros">Resumen de Votos</h2>
+
+                <div class="chart-wrap horizontal">
+                    <div class="grid">
+                        <div class="bar" style="--bar-value:85%;" data-name="Partido 1" title="Your Blog
+                    85%"></div>
+                        <div class="bar" style="--bar-value:23%;" data-name="Partido 2" title="Medium
+                    23%"></div>
+                        <div class="bar" style="--bar-value:7%;" data-name="Partido 3" title="Tumblr
+                    7%"></div>
+                        <div class="bar" style="--bar-value:38%;" data-name="Partido 4" title="Facebook
+                    38%"></div>
+                        <div class="bar" style="--bar-value:35%;" data-name="Partido 5" title="YouTube
+                    35%"></div>
+                        <div class="bar" style="--bar-value:30%;" data-name="Partido 6" title="LinkedIn
+                    30%"></div>
+                        <div class="bar" style="--bar-value:5%;" data-name="Partido 7" title="Twitter
+                    5%"></div>
+                        <div class="bar" style="--bar-value:20%;" data-name="Otros" title="Other
+                    20%"></div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    <!--Pie de página-->
     <footer>
-        <p>Desarrollado con ♥ - LC2</p>
-    </footer>
+        <img src="CSS/img/Logo_DINE_negativo.png" alt="" width="190px" height="50px">
+        <img src="CSS/img/Ministerio-del-Interior_pluma.1ab9a7a7.png" alt="" width="170px">
+        <img src="CSS/img/logos_001-10.4430c8d5.png" alt="" width="170px">
+
+        <p id="txt-pie">
+            “Resultados Provisorios en base a telegramas recibidos (Art. 43 Ley 26571 y Art. 105 Ley 19945). Los
+            porcentajes de las agrupaciones políticas son calculados sobre los votos válidos (PASO) conforme al art. 45
+            Ley 26.571 y afirmativos (Generales). No se incluyen los votos correspondientes a los electores residentes
+            en el exterior ni privados de la libertad. Al usar este sitio usted acepta los <a href=""
+                id="link-pie">Términos y
+                Condiciones</a>
+        </p>
+    </footer> 
+    
 </body>
