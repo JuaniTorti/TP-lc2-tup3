@@ -74,7 +74,6 @@ footer{
     margin-left: -8px;
     margin-bottom: -100px;
 }
-
 body{
     position: relative;
     min-height: 100vh;
@@ -135,4 +134,8 @@ a{
 header{
     padding: 0px;
     margin: -8px;
+}
+
+#txt-pie {
+    font-size: 12px;
 }
