@@ -52,14 +52,6 @@ header {
     margin: 20px;
 }
 
-footer {
-
-    background-color: #333;
-    color: #9e9e9e;
-    display: flex;
-    justify-content: flex-start;
-    padding: 20px;
-}
 
 #link-pie {
     color: #18a0fb;
@@ -473,11 +465,77 @@ hr {
     opacity: 0.7;
 }
 
-
 .chart-wrap .bar::after {
     content: attr(data-name);
     margin-left: 100%;
     padding: 10px;
     display: inline-block;
     white-space: nowrap;
+}
+
+/*barra de progreso*/
+.progress {
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    }
+
+    .progress-bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 5px;
+    }
+
+    .progress-bar-text {
+    margin-left: 10px;
+    font-weight: bold;
+    color: var(--textos);
+    font-size: 9px;
+    }
+    
+.grid {
+    border: 3px solid #18a0fb;
+    display: grid;
+}
+
+.bar {
+    border: 3px solid green;
+    display: flex;
+    border-radius: 20px;
+}
+
+
+/*barra de progreso*/
+.progress {
+    height: 35px;
+    width: 95%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.progress-bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 5px;
+}
+
+.progress-bar-text {
+    margin-left: 10px;
+    font-weight: bold;
+    color: var(--textos);
+    font-size: 15px;
+}
+
+.chart-wrap{
+    display: flex;
+    min-height: 100px;
+    width: 200px;
+    border: 1px solid red;
+    margin-left:100px ;
 }
